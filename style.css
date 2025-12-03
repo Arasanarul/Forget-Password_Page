@@ -9,7 +9,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgb(32, 32, 163);
+    background-color: #0186E5;
 
 }
 .box{
@@ -31,7 +31,7 @@ body{
     background-color: white;
     justify-content: center;
     align-items:center;
-    color: rgb(32, 32, 163);
+    color: #2578B6;
     font-size:x-large;
 
 }
@@ -51,19 +51,35 @@ body{
     color: gray;
     height: 100px;
     width: 100%;
-    border: 4px solid black;
+    
     
 }
+.box3 input{
+    display: flex;
+    text-align: center;
+    outline: none;
+    height: 100px;
+    width: 95%;
+    font-size: 18px;
+    border: 1px solid black;
+}
 
-.box4{
+.box4 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
     width: 60%;
     margin:50px ;
-    color: white;
-    background-color: rgb(32, 32, 163);
-    border-radius: 7px;
+    
 
+}
+.box4 button{
+    height: 100px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #0286E2;
 }
